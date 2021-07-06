@@ -12,6 +12,7 @@ if (module.hot) {
 
 //Crear a react component
 const App = () =>{
+     const buttonText1 = {text: 'Click'};
      const buttonText = 'Click Me!';
 
     return(
@@ -20,7 +21,7 @@ const App = () =>{
                 Enter name:
             </label>
             <input id="name" type="text" />
-            <button style={{backgroundColor:'blue', color: 'white'}}>{buttonText}</button>
+            <button style={{backgroundColor:'blue', color: 'white'}}>{buttonText1.text}</button>
             <button style={{backgroundColor:'orange', color: 'white'}}>{getButtonText()}</button>
         </div> 
 
