@@ -13,7 +13,7 @@ function getButtonText() {
 //Crear a react component
 const App = () => {
   const buttonText1 = { text: 'Click' };
-  const buttonText = 'Click Me!';
+  //const buttonText = 'Click Me!';
 
   return (
     <div style={{ backgroundColor: 'gray', height: '100vh' }}>
