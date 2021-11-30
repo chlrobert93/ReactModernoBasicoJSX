@@ -4,7 +4,7 @@ JSX basico
 
 Recomendamos el uso de Visual Studio Code, ya que prettier se aplicará automáticamente al guardar. La configuración se puede encontrar en `.vscode / settings.json`
 
-## Available Scripts
+## Empezando
 
 En el directorio del proyecto, puede ejecutar:
 
